@@ -3,9 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-#box{
+.box{
     background: green;
     margin: 10px;
     padding: 20px;
-    border: 2px solid red;
+    border: 2px solid red; 
+    
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-rows: repeat(3,1fr); */
+    /* column-span: 2; */
+    /* gap: 10px; */
 }

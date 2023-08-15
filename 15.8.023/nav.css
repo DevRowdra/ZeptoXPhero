@@ -19,6 +19,12 @@ li {
   margin: 2rm;
   padding: 1em;
   border: 2px solid black;
+  transition: transform  0.2s ease-in , all 0.8s ease-out;
+}
+.navBar:hover{
+    background: blanchedalmond;
+    transform: scale(1.1);
+    /* transform: rotateX(360deg); */
 }
 @media screen and (max-width:575px) {
   ul {

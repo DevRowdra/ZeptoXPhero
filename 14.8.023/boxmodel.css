@@ -21,3 +21,14 @@
     /* column-span: 2; */
     /* gap: 10px; */
 }
+/* media que */
+@media screen and (max-width:575px) {
+    .grid-container{
+        flex-direction: column-reverse;
+        /* background: red; */
+    }
+    .box{
+        background: red;
+        font-size: 10px;
+    }
+}

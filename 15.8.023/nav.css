@@ -25,6 +25,27 @@ li {
     background: blanchedalmond;
     transform: scale(1.1);
     /* transform: rotateX(360deg); */
+
+}
+
+#blogSection{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap:20px ;
+
+}
+#fullSection> h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+#third{
+    grid-column: span 3;
+}
+.sBlog{
+    background: green;
 }
 @media screen and (max-width:575px) {
   ul {

@@ -60,7 +60,23 @@ li {
   height: 100%;
   object-fit: cover;
 }
-/* pageNation */
+/* table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid rgb(237, 174, 174);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* pagiNation */
 .pagenation{
   justify-content: center;
   align-items: center;

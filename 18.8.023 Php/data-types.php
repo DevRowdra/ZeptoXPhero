@@ -14,4 +14,5 @@ echo $array[2];
 $object=new MyClass(); // object 
 var_dump($object);
 $nul=null; //null
+
 var_dump($nul);

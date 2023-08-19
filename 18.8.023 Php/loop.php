@@ -54,5 +54,10 @@ for($i=$m,$factorial=1;$i>1;$i--) {
 $factorial=$factorial*$i;
 
 }
-echo PHP_EOL;
-printf($factorial);
+// echo PHP_EOL;
+// printf($factorial);
+
+$de=123.456;
+$user;
+$lat=$user ?? $de;
+echo "\n".$lat;

@@ -37,5 +37,32 @@ $arrPop=array_pop($students);
 array_push($students,'dip');
 array_unshift($students,'raju');
 $students[]='rohan'; //ushing this way we can add new data in an array;
-echo $students;
+// echo $students;
 var_dump($students);
+
+
+// asociative array
+
+$boy=[
+    '12'=>'rowdra',
+    '13'=>'dhruba',
+    '14'=>'arko',
+    '15'=>'shuvo',
+];
+// echo $boy['14'];
+
+$foods=[
+    'vage'=>'potato,carrot',
+    'fro'=>'mango,banana',
+];
+echo $foods['vage'];    
+
+// string to array
+$vegetables=explode(', ','potato, carrot'); // explode use to make a string into an array; 
+echo $vegetables[0];
+var_dump($vegetables);
+//using join method we make a array into string
+
+$vegetablesToString=join(", ", $vegetables);
+// echo $vegetablesToString[0];
+ var_dump($vegetablesToString);

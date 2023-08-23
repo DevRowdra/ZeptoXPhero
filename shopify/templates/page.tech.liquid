@@ -1,0 +1,22 @@
+<div>
+{% assign num=-909 %}
+{% if  num > 100 %}
+  <p>please and the currect number</p>
+{% elsif num < 0 %}
+  <p>number not valid</p>
+  {% endif %}
+  
+ 
+  {% comment %}
+{% assign num1=10 %}
+ {% assign num2=5 %}
+  <p>pluse {{ num1 | modulo:num2 }}</p>
+  {{ address love='i love my mon' }}
+  {{ love }}
+  
+  {% assign names='rowdra,dhruba,dip,arko' | split:',' %}
+  {% for name in names%}
+  {{ name }}
+    {% endfor %}
+    {% endcomment %}
+</div>
